@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Actual Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/calc.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <div class="text-center container">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt officia error eaque tempora perferendis.
+        Beatae ea blanditiis quod, placeat nam molestias tempora dolorem quidem, fugit amet molestiae et nemo neque.
+    </div>
+    <div class="Calc">
+        <div class="button">
+            <button class="btn button1 text-light bg-primary">Blue</button>
+            <button class="btn button2 text-warning bg-danger">Red</button>
+            <button class="btn button3 bg-success">Green</button>
+            <button class="btn button4 bg-warning">Yellow</button>
+            <button class="btn button5 text-light bg-dark">Black</button>
+            <button class="btn bg-info button6">Aqua</button>
+        </div>
+        <div class="calculator border background">
+            <input id="display" placeholder="0" readonly>
+            <div class="keys">
+                <button onclick="clearDisplay()" class="calc" id="calc"> A/C </button>
+                <button onclick="clearDisplay2()" class="calc"> C </button>
+                <button onclick="appendToDisplay7()" class="work"> π </button>
+                <button onclick="appendToDisplay3()" class="work"> √ </button>
+                <button onclick="appendToDisplay6()" class="work" id="calc"></button>
+                <button onclick="appendToDisplay6()" class="work" id="calc">  </button>
+                <button onclick="appendToDisplay('%')" class="calc"> % </button>
+                <button onclick="appendToDisplay('/')" class="calc" id="yellow"> ÷ </button>
+                <button onclick="appendToDisplay('7')" class="calc"> 7 </button>
+                <button onclick="appendToDisplay('8')" class="calc"> 8 </button>
+                <button onclick="appendToDisplay('9')" class="calc"> 9 </button>
+                <button onclick="appendToDisplay('*')" class="calc" id="yellow"> x </button>
+                <button onclick="appendToDisplay('4')" class="calc"> 4 </button>
+                <button onclick="appendToDisplay('5')" class="calc"> 5 </button>
+                <button onclick="appendToDisplay('6')" class="calc"> 6 </button>
+                <button onclick="appendToDisplay('-')" class="calc" id="yellow"> - </button>
+                <button onclick="appendToDisplay('1')" class="calc"> 1 </button>
+                <button onclick="appendToDisplay('2')" class="calc"> 2 </button>
+                <button onclick="appendToDisplay('3')" class="calc"> 3 </button>
+                <button onclick="appendToDisplay('+')" class="calc" id="yellow"> + </button>
+                <button onclick="appendToDisplay('0')" class="calc"> 0 </button>
+                <button onclick="appendToDisplay('.')" class="calc"> . </button>
+                <button onclick="appendToDisplay2('')" class="calc"> x² </button>
+                <button onclick="calculate()" class="calc" id="yellow"> = </button>
+                <button onclick="appendToDisplay4()" class="work" id="calc">log</button>
+                <button onclick="appendToDisplay5()" class="work" id="calc"> sine </button>
+                <button onclick="appendToDisplay6()" class="work" id="calc"> cos </button>
+                <button onclick="appendToDisplay5()" class="work" id="calc">  </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/calc.js"></script>
+</body>
+
+</html>
+
+<!-- <form action="#" aria-required="true">
+        <input type="text" id="myInput">
+        <button onclick="getNumber()">Get Number</button>
+    </form>
+
+
+    <script>
+        function getNumber() {
+            const inputElement = document.getElementById("myInput").value;
+            //const inputValue = inputElement.value;
+            const number = parseInt(inputElement); // or parseFloat(inputValue) or inputElement.valueAsNumber
+
+            if (isNaN(number)) {
+                alert("Invalid input: Not a number");
+            } else {
+                alert("The number is: " + number);
+            }
+        }
+    </script>  -->

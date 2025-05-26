@@ -1,0 +1,81 @@
+@media (max-width: 390px) {
+    div.button {
+        margin-top: 5px;
+        display: none;
+        
+    }
+/* 
+    button.btn {
+        gap: 20px;
+        display: flex;
+        width: 50px;
+        margin-top: 40px;
+        cursor: pointer;
+        text-align: center;
+     
+
+    } */
+}
+@media (max-width: 768px) {
+    div.button {
+        margin-top: 5px;
+    }
+
+    button.btn {
+        gap: 20px;
+        display: grid;
+        width: 50px;
+        margin-top: 40px;
+        cursor: pointer;
+        text-align: right;
+        font-size: 10px;
+
+    }
+}
+
+div.button {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 2px; 
+}
+
+button.btn{
+    gap: 20px;
+}
+
+ /* Sice of calculator text*/
+#calc {
+    text-align: center;
+    font-size: 1rem;
+}
+.blue-background {
+    background-color: rgb(0, 0, 255);
+}
+
+.red-background {
+    background-color: rgb(255, 0, 0);
+}
+
+.green-background {
+    background-color: rgb(0, 255, 0);
+}
+
+.yellow-background {
+    background-color: rgb(255, 255, 0);
+}
+
+.black-background {
+    background-color: rgb(0, 0, 0);
+}
+
+.lblue-background {
+    background-color: rgb(0, 255, 255);
+}
+
+.text1 {
+    color: white;
+}
+
+.text2 {
+    color: yellow;
+}
